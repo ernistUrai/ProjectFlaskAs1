@@ -1,0 +1,129 @@
+{% extends 'index.html' %}
+
+{% block title %}
+<title>Главная страница</title>
+{% endblock %}
+
+
+{% block body %}
+    <header class="sticky-top bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Aperture</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="/about/">Про нас</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Продукт</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Функции</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Предприятие</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Поддержка</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Ценообразование</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 hero-content">
+                        <h1 class="display-4 fw-bold text-center">Разработано для инженеров</h1>
+                        <p class="lead text-center">Создавайте все, что угодно, с помощью Aperture</p>
+                        <div class="d-flex justify-content-center mt-4">
+                            <a href="#" class="btn cta-button me-2 pulse">Подробнее</a>
+                            <a href="#" class="btn btn-secondary">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white shadow-sm my-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <article class="col">
+                        <div class="feature-card">
+                            <div class="card-body">
+                                <h2 class="card-title">Название функции 1</h2>
+                                <p class="card-text">Описание функции 1. Это очень краткое описание, которое должно быть понятно даже без подробного объяснения.</p>
+                                <div class="cta-button">Подробнее</div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="feature-card">
+                            <div class="card-body">
+                                <h2 class="card-title">Название функции 2</h2>
+                                <p class="card-text">Описание функции 2. Это очень краткое описание, которое должно быть понятно даже без подробного объяснения.</p>
+                                <div class="cta-button">Подробнее</div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="feature-card">
+                            <div class="card-body">
+                                <h2 class="card-title">Название функции 3</h2>
+                                <p class="card-text">Описание функции 3. Это очень краткое описание, которое должно быть понятно даже без подробного объяснения.</p>
+                                <div class="cta-button">Подробнее</div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <div class="feature-card">
+                            <div class="card-body">
+                                <h2 class="card-title">Название функции 4</h2>
+                                <p class="card-text">Описание функции 4. Это очень краткое описание, которое должно быть понятно даже без подробного объяснения.</p>
+                                <div class="cta-button">Подробнее</div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h5>Функции</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" class="text-decoration-none">Крутые штуки</a></li>
+                        <li><a href="#" class="text-decoration-none">Случайная функция</a></li>
+                        <li><a href="#" class="text-decoration-none">Функция команды</a></li>
+                        <li><a href="#" class="text-decoration-none">Материал для разработчиков</a></li>
+                        <li><a href="#" class="text-decoration-none">Еще один</a></li>
+                        <li><a href="#" class="text-decoration-none">Последний раз</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h5>Ресурсы</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" class="text-decoration-none">Имя ресурса</a></li>
+                        <li><a href="#" class="text-decoration-none">Ресурс</a></li>
+                        <li><a href="#" class="text-decoration-none">Еще один ресурс</a></li>
+                        <li><a href="#" class="text-decoration-none">Итоговый ресурс</a></li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h5>Около</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" class="text-decoration-none">Команда</a></li>
+                        <li><a href="#" class="text-decoration-none">Местонахождения</a></li>
+                        <li><a href="#" class="text-decoration-none">Конфиденциальность</a></li>
+                        <li><a href="#" class="text-decoration-none">Условия</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
